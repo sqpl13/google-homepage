@@ -1,0 +1,122 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: arial,sans-serif;
+  color: #222;
+  min-width: 400px;
+  font-size: 16px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    box-sizing: content-box;
+}
+.nav-link {
+    padding-left: 10px;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 12px;
+}
+#navbar a:hover {
+  text-decoration: underline;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: -15px;
+}
+#navbar li {
+  list-style: none;
+}
+.menu-icon {
+  height:16px;
+  width:16px;
+}
+.user-icon {
+  height:36px;
+  width:36px;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  min-height: 92px;
+}
+#logo img {
+  height: 92px;
+}
+input {
+  border: none;
+  outline: none;
+}
+.search-input {
+  width: 90%;
+  font-size: 1.6rem;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-icon {
+width: 25px;
+height: 25px;
+}
+.search-text {
+width: 95%;
+height: 20px;
+font-size: 16px;
+}
+.search-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.form-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 580px;
+  padding: 5px;
+  border: 0.1px solid #ddd;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.search-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.search-btn:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
